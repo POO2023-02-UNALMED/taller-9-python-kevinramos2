@@ -7,8 +7,8 @@ root.resizable(0,0)
 root.geometry()
 
 # Configuración pantalla de salida 
-pantalla = Entry(root, width=40, bg="black", fg="white", borderwidth=0, font=("arial", 18, "bold"))
-pantalla.grid(row=0, column=0, columnspan=4, padx=1, pady=1)
+pantalla = Entry(root, width=22, bg="black", fg="white", borderwidth=0, font=("arial", 18, "bold"))
+pantalla.grid(row=0, column=0, columnspan=40, padx=1, pady=1)
 
 # Configuración botones
 boton_1 = Button(root, text="1", width=9, height=3, bg="white", fg="red", borderwidth=0, cursor="hand2").grid(row=1, column=0, padx=2, pady=1)
